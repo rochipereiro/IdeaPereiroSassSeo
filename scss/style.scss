@@ -1,0 +1,11 @@
+@import "../components/header";
+@import "../components/main";
+@import "../components/footer";
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/operadores";
+@import "../base/mixin";
+
+body{
+    margin: 5px;
+}

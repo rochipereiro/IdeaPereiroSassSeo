@@ -1,0 +1,17 @@
+@import "../base/listas";
+@import "../base/maps.scss";
+@import "../base/variables.scss";
+footer{
+        background-color: nth($colores, 5);
+        font-size: nth($letras , 2);
+        color: nth($colores, 3);
+    div{
+        display: inline-flex;
+        div h3{
+            display: inline-block;
+        }
+        div a{
+            display: block;
+        }
+    }
+}

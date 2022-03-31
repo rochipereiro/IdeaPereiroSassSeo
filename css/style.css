@@ -1,0 +1,77 @@
+div header {
+  background-image: url(../images/fondoportada.jpg);
+}
+div header a img {
+  align-content: right;
+}
+div header h1 {
+  font-size: 50px;
+  color: white;
+  border: 2px solid darkmagenta;
+}
+div header div ul li {
+  background-color: #d65bf5;
+  margin: 5px;
+  padding: 10px;
+}
+
+div main {
+  background-color: #d65bf5;
+  color: black;
+}
+div main div h2 {
+  font-size: 40px;
+  text-align: center;
+}
+div main div div p {
+  text-align: justify;
+  margin: 5px;
+}
+div main div div div {
+  display: inline-flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #6900e0;
+  font-size: 30px;
+  color: white;
+}
+footer div {
+  display: inline-flex;
+}
+footer div div h3 {
+  display: inline-block;
+}
+footer div div a {
+  display: block;
+}
+
+.acomodo_footer, .acomodo_main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+}
+
+.acomodo_main {
+  background-color: purple;
+}
+
+.acomodo_footer {
+  background-color: #a23ebb;
+}
+
+.radio-cartas {
+  display: flex;
+  flex-direction: row;
+  border: double darkmagenta;
+}
+
+body {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

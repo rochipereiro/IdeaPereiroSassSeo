@@ -1,0 +1,14 @@
+%disposicion_horizontal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+}
+.acomodo_main{
+    background-color: purple;
+    @extend %disposicion_horizontal
+}
+.acomodo_footer{
+    background-color: rgb(162, 62, 187);
+    @extend %disposicion_horizontal
+}

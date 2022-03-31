@@ -1,0 +1,21 @@
+@import "../base/listas";
+@import "../base/variables.scss";
+div main{
+        background-color: $bg-fondo-m;
+        color: black;
+    div h2{
+        font-size: nth($letras , 3 );
+        text-align: center;
+    }
+    div div p{
+        text-align: justify;
+        margin: 5px;
+    }
+    div div div{
+        display: inline-flex;
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+}
